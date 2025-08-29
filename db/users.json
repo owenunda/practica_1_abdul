@@ -1,17 +1,16 @@
 [
   {
-    "name": "Juan",
-    "email": "juan@example.com",
-    "password": "123456"
+    "id": "1756484716045",
+    "name": "oween",
+    "email": "owenunda@example.com",
+    "password": "123456789",
+    "createdAt": "2025-08-29T16:25:16.045Z"
   },
   {
-    "name": "Maria",
-    "email": "maria@example.com",
-    "password": "abcdef"
-  },
-  {
-    "name": "Pedro",
-    "email": "pedro@example.com",
-    "password": "qwerty"
+    "id": "1756485723772",
+    "name": "juliana",
+    "email": "juliana@gmail.com",
+    "password": "123456789",
+    "createdAt": "2025-08-29T16:42:03.772Z"
   }
 ]

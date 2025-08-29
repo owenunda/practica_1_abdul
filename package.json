@@ -1,14 +1,15 @@
 {
   "name": "practica1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sistema de autenticación con arquitectura monolítica",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["authentication", "monolithic", "singleton"],
   "author": "",
   "license": "ISC",
   "dependencies": {
