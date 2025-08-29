@@ -10,7 +10,7 @@ const app = express();
 const PORT = 3000;
 
 // Servir carpeta "public"
-app.use(express.static(path.join(__dirname, "pages")));
+app.use(express.static(path.join(__dirname, "public")));
 
 // Ruta login
 app.get("/login", (req, res) => {

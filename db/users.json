@@ -1,17 +1,17 @@
 [
   {
-    "nombre": "Juan",
-    "correo": "juan@example.com",
-    "contrasena": "123456"
+    "name": "Juan",
+    "email": "juan@example.com",
+    "password": "123456"
   },
   {
-    "nombre": "Maria",
-    "correo": "maria@example.com",
-    "contrasena": "abcdef"
+    "name": "Maria",
+    "email": "maria@example.com",
+    "password": "abcdef"
   },
   {
-    "nombre": "Pedro",
-    "correo": "pedro@example.com",
-    "contrasena": "qwerty"
+    "name": "Pedro",
+    "email": "pedro@example.com",
+    "password": "qwerty"
   }
 ]
