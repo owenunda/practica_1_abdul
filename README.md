@@ -373,35 +373,46 @@ static validateEmail(email) {
 static validatePassword(password) {
   return password && password.length >= 6;
 }
+```
 
-9. 🚀 Guía de Ejecución del Proyecto
-9.1 Requisitos Previos
-Herramientas Necesarias:
 
-✅ Node.js (versión 18 o superior)
-✅ npm (incluido con Node.js)
-✅ Editor de código (VS Code recomendado)
-✅ Navegador web moderno
-✅ Terminal/Línea de comandos
+## 9. 🚀 Guía de Ejecución del Proyecto
 
-Verificar Instalación:
-bash# Verificar Node.js
+### 9.1 Requisitos Previos
+
+**Herramientas Necesarias:**
+- ✅ **Node.js** (versión 18 o superior)
+- ✅ **npm** (incluido con Node.js)  
+- ✅ **Editor de código** (VS Code recomendado)
+- ✅ **Navegador web** moderno
+- ✅ **Terminal/Línea de comandos**
+
+**Verificar Instalación:**
+```bash
+# Verificar Node.js
 node --version
 # Salida esperada: v18.x.x o superior
 
 # Verificar npm
 npm --version  
 # Salida esperada: 8.x.x o superior
-9.2 Proceso de Instalación Paso a Paso
-Paso 1: Obtener el Código
-bash# Si tienes Git configurado
+```
+
+### 9.2 Proceso de Instalación Paso a Paso
+
+#### **Paso 1: Obtener el Código**
+```bash
+# Si tienes Git configurado
 git clone <url-del-repositorio>
 cd practica_1_abdul
 
 # O descargar ZIP y extraer
 # cd ruta/donde/extrajiste/el-proyecto
-Paso 2: Verificar Estructura de Archivos
-bash# Listar contenido del proyecto
+```
+
+#### **Paso 2: Verificar Estructura de Archivos**
+```bash
+# Listar contenido del proyecto
 ls -la
 
 # Estructura esperada:
@@ -413,51 +424,67 @@ practica_1_abdul/
 ├── index.js
 ├── package.json
 └── README.md
-Paso 3: Instalar Dependencias
-bash# Instalar todas las dependencias
+```
+
+#### **Paso 3: Instalar Dependencias**
+```bash
+# Instalar todas las dependencias
 npm install
 
 # Salida esperada:
 # added X packages in Xs
 # found 0 vulnerabilities
-Paso 4: Verificar Base de Datos
-bash# Verificar que existe el archivo JSON
+```
+
+#### **Paso 4: Verificar Base de Datos**
+```bash
+# Verificar que existe el archivo JSON
 cat db/users.json
 
 # Si no existe, crearlo:
 echo '[{"name":"Admin","email":"admin@test.com","password":"123456"}]' > db/users.json
-Paso 5: Ejecutar el Servidor
-bash# Iniciar el servidor
+```
+
+#### **Paso 5: Ejecutar el Servidor**
+```bash
+# Iniciar el servidor
 npm start
 
 # Salida esperada:
 # Servidor corriendo en http://localhost:3000
 # Nueva instancia de Database creada (Singleton)
-9.3 Verificación de Funcionamiento
-Prueba 1: Acceso a la Aplicación
+```
 
-Abrir navegador y ir a http://localhost:3000
-Verificar carga de la landing page
-Confirmar enlaces a login y registro funcionan
+### 9.3 Verificación de Funcionamiento
 
-Prueba 2: Funcionalidad de Login
-bash# En el navegador:
+#### **Prueba 1: Acceso a la Aplicación**
+1. **Abrir navegador** y ir a `http://localhost:3000`
+2. **Verificar carga** de la landing page
+3. **Confirmar enlaces** a login y registro funcionan
+
+#### **Prueba 2: Funcionalidad de Login**
+```bash
+# En el navegador:
 # 1. Ir a http://localhost:3000/login
 # 2. Usar credenciales de prueba:
-#    Email: owenunda@example.com
-#    Password: 123456789
+#    Email: admin@test.com
+#    Password: 123456
 # 3. Verificar redirección a dashboard
-Prueba 3: Funcionalidad de Registro
-bash# En el navegador:
+```
+
+#### **Prueba 3: Funcionalidad de Registro**
+```bash
+# En el navegador:
 # 1. Ir a http://localhost:3000/register  
 # 2. Completar formulario con datos nuevos
 # 3. Verificar mensaje de éxito
 # 4. Comprobar nuevo usuario en db/users.json
+```
+## 10 Flujo de Trabajo Recomendado
 
-
-10 Flujo de Trabajo Recomendado
-Para Desarrollo:
-bash# 1. Clonar/descargar proyecto
+#### **Para Desarrollo:**
+```bash
+# 1. Clonar/descargar proyecto
 git clone <repo>
 
 # 2. Instalar dependencias  
@@ -467,5 +494,4 @@ npm install
 npm run start
 
 # 4. Abrir navegador en http://localhost:3000
-
-# 5. Hacer
+```
